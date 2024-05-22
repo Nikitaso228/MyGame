@@ -2,14 +2,14 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace MyGame;
+namespace NewGame;
 
-public class MyGame : Game
+public class HeroInTheShadow : Game
 {
 	private GraphicsDeviceManager graphics;
 	private SpriteBatch spriteBatch;
 
-	public MyGame()
+	public HeroInTheShadow()
 	{
 		graphics = new GraphicsDeviceManager(this);
 		Content.RootDirectory = "Content";

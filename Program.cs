@@ -1,2 +1,2 @@
-﻿using var game = new MyGame.MyGame();
+﻿using var game = new NewGame.HeroInTheShadow();
 game.Run();
